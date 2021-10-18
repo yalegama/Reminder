@@ -5,6 +5,7 @@ let reset=document.getElementById('reset');
 let topList=document.getElementById('topList');
 let bottom=document.getElementById('bottom');
 let btn=document.getElementById('btn');
+let select=document.getElementById('select');
 let stackArray=[];
 
 submit.addEventListener('click',submitClick);
@@ -14,6 +15,7 @@ if(reminder.value==''){
     alert('Enter reminder')
 }else{
 
+   if(select.value=='last'){
     stackArray.push(reminder.value);
     
     let listCount=`<h1>Reminders</h1>`;
@@ -22,6 +24,16 @@ if(reminder.value==''){
         listCount+=`<h3>(0${index+1}) ${value}</h3>`
     })
     list.innerHTML=listCount;
+   }else if(select.value=='first'){
+    stackArray.unshift(reminder.value);
+    
+    let listCount=`<h1>Reminders</h1>`;
+
+    stackArray.forEach((value,index,array)=>{
+        listCount+=`<h3>(0${index+1}) ${value}</h3>`
+    })
+    list.innerHTML=listCount;
+   }
 }
 
 reminder.value="";
