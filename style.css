@@ -1,0 +1,133 @@
+.body {
+  display: flex;
+}
+.block1 {
+  width: 40%;
+  height: 100vh;
+  border: 2px black solid;
+  padding: 50px;
+}
+.block1 h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.block2 {
+  width: 60%;
+  text-align: center;
+}
+.label {
+  font-size: 2rem;
+}
+.text {
+  margin-bottom: 20px;
+}
+#reminder {
+  width: 100%;
+  height: 2rem;
+}
+.submitButton {
+  text-align: center;
+}
+#submit {
+  width: 30%;
+  height: 2rem;
+  background-color: crimson;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+#submit:hover {
+  font-size: 1.1rem;
+}
+
+.block2 {
+  background-color: darkblue;
+}
+#list h1 {
+  color: white;
+}
+
+#list h3 {
+  color: white;
+}
+.empty {
+  width: 100%;
+  height: 10vh;
+}
+.button_block {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  margin-top: 15px;
+}
+
+#reset {
+  width: 30%;
+  height: 2rem;
+  background-color: crimson;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+#topList {
+  width: 30%;
+  height: 2rem;
+  background-color: yellow;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+#bottom {
+  width: 30%;
+  height: 2rem;
+  background-color: green;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+#btn {
+  width: 30%;
+  height: 2rem;
+  background-color: orange;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+#reset:hover {
+  font-size: 1.1rem;
+}
+#topList:hover {
+  font-size: 1.1rem;
+}
+#bottom:hover {
+  font-size: 1.1rem;
+}
+#btn:hover {
+  font-size: 1.1rem;
+}
+.details {
+  margin-top: 80px;
+  padding: 50px;
+}
